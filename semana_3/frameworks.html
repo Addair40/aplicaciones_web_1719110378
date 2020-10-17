@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/estilos.css" rel="stylesheet" type="text/css">
+  <title>FORMULARIO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2 class="ADDAIRlabel">DATOS PERSONALES </h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="matricula"><h2>MATRICULA:</h2></label>
+      <input type="number" class="form-control" id="matricula" name="matricula">
+    </div>
+    
+    <div class="form-group">
+      <label for="nombre"><h2>NOMBRE:</h2></label>
+      <input type="text" class="form-control" id="nombre" name="nombre">
+    </div>
+    
+    <div class="form-group">
+      <label for="primerapellido"><h2>PRIMER APELLIDO:</h2></label>
+      <input type="text" class="form-control" id="primer apellido" 
+      name="primer apellido">
+    </div>
+    
+    <div class="form-group">
+      <label for="segundoapellido"><h2>SEGUNDO APELLIDO:</h2></label>
+      <input type="text" class="form-control" id="segundoapellido" 
+      name="segundoapellido">
+    </div> 
+    
+    <div class="form-group">
+      <label for="edad"><h2>EDAD:</h2></label>
+      <input type="number" class="form-control" id="edad" 
+      name="edad">
+    </div>
+    
+    <div class="form-group">
+      <label for="edad"><h2>FECHA DE NACIMIENTO:</h2></label>
+      <input type="date" class="form-control" id="fechadenacimiento" 
+      name="fechadenacimiento">
+    </div>
+    
+    <h2>SEXO</h2>
+    <div class="container">
+  <form action="/action_page.php">
+    <div class="form-check">
+      <label class="form-check-label" for="radio1">
+        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>H
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label" for="radio2">
+        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">M
+      </label>
+    </div>
+    
+<br>    
+    <div class="container">
+  <h2>ESTADO</h2>
+  <div class="dropup">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      ESTADO
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">AGUASCALIENTES</a>
+      <a class="dropdown-item" href="#">BAJA CALIFORNIA</a>
+      <a class="dropdown-item" href="#">BAJA CALIFORNIA SUR</a>
+      <a class="dropdown-item" href="#">CAMPECHE</a>
+      <a class="dropdown-item" href="#">CHIAPAS</a>
+      <a class="dropdown-item" href="#">CHIHUAHUA</a>
+      <a class="dropdown-item" href="#">COAHUILA</a>
+      <a class="dropdown-item" href="#">COLIMA</a>
+      <a class="dropdown-item" href="#">DURANGO</a>
+      <a class="dropdown-item" href="#">GUANAJUATO</a>
+      <a class="dropdown-item" href="#">GUERRERO</a>
+      <a class="dropdown-item" href="#">HIDALGO</a>
+      <a class="dropdown-item" href="#">JALISCO</a>
+      <a class="dropdown-item" href="#">MEXICO</a>
+      <a class="dropdown-item" href="#">MICHOACAN</a>
+      <a class="dropdown-item" href="#">MORELOS</a>
+      <a class="dropdown-item" href="#">NAYARIT</a>
+      <a class="dropdown-item" href="#">NUEVO LEON</a>
+      <a class="dropdown-item" href="#">OAXACA</a>
+      <a class="dropdown-item" href="#">PUEBLA</a>
+      <a class="dropdown-item" href="#">QUERETARO</a>
+      <a class="dropdown-item" href="#">QUINTANA ROO</a>
+      <a class="dropdown-item" href="#">SAN LUIS POTOSI</a>
+      <a class="dropdown-item" href="#">SINALOA</a>
+      <a class="dropdown-item" href="#">SONORA</a>
+      <a class="dropdown-item" href="#">TABASCO</a>
+      <a class="dropdown-item" href="#">TAMAULIPAS</a>
+      <a class="dropdown-item" href="#">TLAXCALA</a>
+      <a class="dropdown-item" href="#">VERACRUZ</a>
+      <a class="dropdown-item" href="#">YUCATAN</a>
+      <a class="dropdown-item" href="#">ZACATECAS</a>
+    </div>
+
+  </div>
+</div>
+<br>
+<body style="background-color:rgb(23, 162, 135);">
+</body>
+    <button type="submit" class="btn btn-primary">GUARDAR</button>
+  </form>
+</div>
+</body>
+</html>
